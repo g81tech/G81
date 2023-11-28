@@ -1,0 +1,13 @@
+{
+  "name": "g81-business-rules",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/uuid": "^9.0.7",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": { "uuid": "^9.0.1" }
+}
