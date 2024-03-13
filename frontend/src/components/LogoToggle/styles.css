@@ -1,0 +1,45 @@
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeLong {
+  0% {
+    opacity: 0;
+  }
+  73% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  98% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.fade {
+  animation: fade 10s infinite;
+  height: 8rem;
+}
+
+.fadeLong {
+  animation: fadeLong 10s ease-in-out infinite;
+  height: 10rem;
+}

@@ -1,0 +1,131 @@
+{
+  "Menu": {
+    "home": "Index",
+    "about": "About Us",
+    "posts": {
+      "title": "Posts",
+      "b1": "View more"
+    },
+    "contact": "Contacts",
+    "lang": {
+      "en": "English",
+      "pt": "Portuguese Brazil"
+    },
+    "icon": {
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    }
+  },
+  "Shared": {
+    "buttons": {
+      "send": "Send",
+      "cancel": "Cancel",
+      "save": "Save",
+      "edit": "Edit",
+      "delete": "Delete",
+      "add": "Add",
+      "close": "Close",
+      "back": "Back",
+      "next": "Next",
+      "finish": "Finish",
+      "search": "Search",
+      "clear": "Clear",
+      "yes": "Yes",
+      "no": "No",
+      "confirm": "Confirm"
+    },
+    "pages": {
+      "emptyPage": "Page not available at the moment...",
+      "emptyList": "This list is empty..."
+    }
+  },
+  "Home": {
+    "title": "G81 Interactive and Neurolinguistic Technology",
+    "description": "Unified Project Management Platform with interaction and/or applications of neurolinguistic communication as its foundation."
+  },
+  "About": {
+    "resume": {
+      "p1": "Since the early days of computing, software development has evolved significantly, driven by technological advancements and the growing demand for innovative solutions. In contemporary times, software architecture and design services play a crucial role in creating customized digital applications, systems, and solutions. Combining technical expertise, creativity, and programming language knowledge, these services enable process automation, enhance operational efficiency, and optimize business processes.",
+      "p2": "In light of this, G81 Interactive and Neurolinguistic Technology, a startup specializing in technology with a focus on software development (application factory) incorporating neurolinguistic communication, aims to assist companies and entrepreneurs in developing software applications from ideation to full functionality and continuous improvement. We follow a carefully planned process in stages: starting with the diagnostic phase, understanding project needs and challenges deeply. Next, we move to the conceptualization phase, creating a clear and strategic vision for the product.",
+      "p3": "Based on this, we proceed to the detailed requirement gathering and analysis, ensuring that every aspect is meticulously considered. In the development phase, we apply our technical and creative expertise to create robust and innovative solutions. Finally, in the maintenance stage, we ensure the smooth operation and continuous improvement of the software.",
+      "p4": "We work in two segments: the G81 Tech platform serves as the gateway to clients, showcasing services, portfolio, posts, company information, user centralization, and contact channels. Our products include the Gugga project (Grand Unified Governance of Great Applications), where various applications are influenced by social context aligned with the startup's proposal, aiming to contribute to growth and achieving objectives in a specific environment."
+    },
+    "mission": {
+      "title": "Mission",
+      "p1": "Provide innovative and customized software solutions, using technology and neurolinguistic communication as a foundation, to add value to our clients' businesses and contribute positively to their success."
+    },
+    "vision": {
+      "title": "Vision",
+      "p1": "Be recognized as a reference in the technology market focused on social impact, standing out for the quality of our products, commitment to clients, and excellence in communication."
+    },
+    "objectives": {
+      "title": "Objectives and Goals",
+      "p1": "Establish strategic partnerships, expand our presence in the market, increase customer satisfaction, and maintain a reputation for excellence in our services."
+    },
+    "trademark": {
+      "p1": "G81 Interactive and Neurolinguistic Technology, a startup in the technology sector specializing in software development (application factory) incorporating neurolinguistic communication.",
+      "p2": "We provide software architecture and development services, following a carefully planned process in various stages. We start with the diagnostic phase, understanding project needs and challenges deeply. Next, we move to the conceptualization phase, creating a clear and strategic vision for the product. Based on this, we proceed to the detailed requirement gathering and analysis, ensuring that every aspect is meticulously considered. In the development phase, we apply our technical and creative expertise to create robust and innovative solutions. Finally, in the maintenance stage, we ensure the smooth operation and continuous improvement of the software.",
+      "p3": "The 'G' in our brand comes from the immense meaning of Portuguese words that make up our values sought every day, which are: Greatness; Generation; Group; Generosity; Kindness; Gratitude; Management, and Governance. The natural numbers 8 and 1 are related to the 8 virtues that govern our mission and vision to achieve 1 established purpose/ goal idealized by us. In detail, these are:",
+      "virtues": {
+        "faith": {
+          "title": "Faith",
+          "p1": "First and foremost, it enhances the actions of the individual and the company, referring to a force that transcends the self - believing that something or someone will be with you in your afflictions and guide your actions. Faith is also the first principle of the gospel. With faith, it is possible to believe in what cannot be seen but is known to exist, much like the certainty that the sun will rise every morning."
+        },
+        "selfAwareness": {
+          "title": "Self-awareness/ Self-governance",
+          "p1": "The aphorism (brief phrases defining a moral or practical precept) that accurately designates this principle comes from ancient Greek, 'know thyself,' commonly found in Portuguese as 'know yourself.' It reveals the importance of self-awareness - analyzing daily actions, commonplace words, natural tendencies, achievable desires, and other actions inherent to self-knowledge.",
+          "p2": "With this, one can conduct a self-analysis contributing to self-governance, making oneself more organized, diligent, faithful to ideals, and capable of controlling behavior, attitudes, and words anywhere. When self-discipline is achieved, we expand the ability to follow rules effortlessly, even if we dislike them at times. True obedience lies in obeying exactly when we disagree; we can respect others even if their actions are not what we expect, and we can control our language and actions to avoid speaking or doing what is not appropriate at the moment."
+        },
+        "humility": {
+          "title": "Humility",
+          "p1": "A characteristic most humans seek, according to Aristotle, is excellence. Linked to it is the pursuit of the full realization of one's existence, superiority, primacy, and being better. However, temperance, discipline, and moderation, when connected to these characteristics, are called humility, avoiding pride and being the opposite of arrogance. Humility involves evaluating oneself in a way that corresponds to reality, recognizing one's weaknesses, faults, and difficulties truthfully. This is the key to progress, meaning that we use our talents and abilities, acknowledging that we do not know everything and are always open to learning. It reveals a concept related to the idea of acting with modesty and equality towards others, demonstrating respect, simplicity in actions, and recognizing one's own limitations."
+        },
+        "commitment": {
+          "title": "Commitment",
+          "p1": "It is the foundation of everything we do. It is the attitude of dedicatedly fulfilling promises, responsibilities, and commitments. Demonstrated through the relentless pursuit of excellence at every stage of work, meeting deadlines, and respecting commitments made to our clients, employees, and partners. We are committed to going beyond expectations, exceeding them, and delivering high-quality results."
+        },
+        "sowing": {
+          "title": "Sowing",
+          "p1": "The act of planting the seeds of success is part of our mission, where we believe in the importance of every action we take today, as it can have a significant impact on the future. We seek to sow good practices, values, and positive relationships in all interactions with our clients, employees, and business partners. This sowing involves acting with integrity, empathy, and respect, establishing a solid foundation for a healthy work environment, lasting relationships, and long-term positive results."
+        },
+        "focus": {
+          "title": "Focus",
+          "p1": "It is an essential principle to achieve exceptional results. Internally, we constantly encourage personal and professional development, offering opportunities for learning and growth. In our clients' projects, focus allows us to understand their specific needs, set clear goals, and direct our efforts to deliver personalized and high-quality solutions. By maintaining constant focus, we ensure customer satisfaction and achieve excellence in everything we do."
+        },
+        "communication": {
+          "title": "Communication",
+          "p1": "We recognize the importance of clear, open, and effective communication for the success of our relationships with clients, employees, and partners. Our commitment is to enhance communication as a significant purpose, seeking to establish transparent and respectful information exchange. We listen attentively, express our ideas articulately, and understand the needs and expectations of all involved. We create an open communication environment, where each voice is valued, all contributions are recognized, and solutions are built together. We believe that effective communication is the key to strengthening relationships, promoting collaboration, and achieving exceptional results."
+        },
+        "passion": {
+          "title": "Passion",
+          "p1": "It is the fuel that drives our company. It is the intense feeling of enthusiasm, motivation, and dedication to the work we do. We believe that passion is contagious and inspiring, driving us to face challenges, find creative solutions, and overcome obstacles. We are dedicated to making a difference in every project we undertake, adding value to our clients' businesses, and contributing positively to their success. Passion is what keeps us engaged, motivated, and committed to achieving extraordinary results."
+        }
+      }
+    }
+  },
+  "Contact": {
+    "form": {
+      "name": "Full name",
+      "email": "E-mail",
+      "phone": "Phone number",
+      "message": "Message",
+      "subject": {
+        "title": "Subject",
+        "b1": "Information",
+        "b2": "Doubt",
+        "b3": "Complaint",
+        "b4": "Praise",
+        "b5": "Budget",
+        "b6": "Suggestion"
+      },
+      "placeholder": "Inform your",
+      "errorMessage": {
+        "required": "Fill in all mandatory fields!",
+        "fullName":"Fullname must be at least 3 characters.",
+        "email":"Invalid e-mail.",
+        "message": "Message is required."
+      }
+    }
+  }
+}

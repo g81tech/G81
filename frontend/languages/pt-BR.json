@@ -1,0 +1,131 @@
+{
+  "Menu": {
+    "home": "Início",
+    "about": "Sobre nós",
+    "posts": {
+      "title": "Postagens",
+      "b1": "Ver mais"
+    },
+    "contact": "Contatos",
+    "lang": {
+      "pt": "Português Brasil",
+      "en": "Inglês"
+    },
+    "icon": {
+      "light": "Claro",
+      "dark": "Escuro",
+      "system": "Sistema"
+    }
+  },
+  "Shared": {
+    "buttons": {
+      "send": "Enviar",
+      "cancel": "Cancelar",
+      "save": "Salvar",
+      "edit": "Editar",
+      "delete": "Excluir",
+      "add": "Adicionar",
+      "close": "Fechar",
+      "back": "Voltar",
+      "next": "Próximo",
+      "finish": "Finalizar",
+      "search": "Pesquisar",
+      "clear": "Limpar",
+      "yes": "Sim",
+      "no": "Não",
+      "confirm": "Confirmar"
+    },
+    "pages": {
+      "emptyPage": "Página não disponível no momento...",
+      "emptyList": "Essa lista está vazia..."
+    }
+  },
+  "Home": {
+    "title": "G81 Tecnologia Interativa e Neurolinguística",
+    "description": "Plataforma de gerenciamento unificado dos projetos que tem a interação e/ou aplicações da comunicação neurolinguística como base."
+  },
+  "About": {
+    "resume": {
+      "p1": "Desde os primórdios da computação, a criação de software evoluiu significativamente, impulsionada pelo avanço tecnológico e pela demanda crescente por soluções inovadoras. Na atualidade, os serviços de arquitetura e design de softwares desempenham um papel crucial na criação de aplicativos, sistemas e soluções digitais personalizadas. Com uma combinação de expertise técnica, criatividade e conhecimento em linguagens de programação, estes serviços possibilitam a automatização de processos, o aprimoramento da eficiência operacional e a otimização dos negócios.",
+      "p2": "Diante disso, a G81 Tecnologia Interativa e Neurolinguística, startup especializada no ramo de tecnologia com especificidade em software house (fábrica de aplicações) que tenham a interação e/ou aplicações da comunicação neurolinguística como base, surge com o intuito de auxiliar as empresas e/ou empresários com o desenvolvimento de softwares (aplicações) que vão desde a materialização da ideia até o pleno funcionamento e aprimoramento contínuo. Para isso, realizamos um processo cuidadosamente planejado nas seguintes etapas: Iniciamos com a fase de diagnóstico, onde compreendemos profundamente as necessidades e desafios do projeto. Em seguida, avançamos para a fase de concepção, onde criamos uma visão clara e estratégica do produto.",
+      "p3": "Com base nisso, prosseguimos para o levantamento e análise detalhada de requisitos, garantindo que cada aspecto seja minuciosamente considerado. Na fase de desenvolvimento, aplicamos nossa expertise técnica e criativa para criar soluções robustas e inovadoras. Por fim, na etapa de manutenção, asseguramos o pleno funcionamento e aprimoramento contínuo do software.",
+      "p4": "Dois segmentos são trabalhados, a plataforma G81 Tech sendo a porta de entrada aos clientes, mostrando os serviços, portfólio, postagens, sobre a empresa, centralização de usuários e os meios de contato. E os nossos produtos, do projeto Gugga (Gerenciamento Único de Grandes Aplicações), no qual diversas aplicações tendo a influência do contexto social alinhado à proposta da startup, visando sempre contribuir para o crescimento e realização do objetivo em um determinado ambiente."
+    },
+    "mission": {
+      "title": "Missão",
+      "p1": "Fornecer soluções de software inovadoras e personalizadas, utilizando a tecnologia e a comunicação neurolinguística como base, para agregar valor aos negócios de nossos clientes e contribuir positivamente para seu sucesso."
+    },
+    "vision": {
+      "title": "Visão",
+      "p1": "Ser reconhecida como referência no mercado de tecnologia voltado ao social, destacando-se pela qualidade de nossos produtos, comprometimento com os clientes e excelência na comunicação."
+    },
+    "objectives": {
+      "title": "Objetivos e metas",
+      "p1": "Estabelecer parcerias estratégicas, expandir nossa atuação no mercado, aumentar a satisfação dos clientes e manter a reputação de excelência em nossos serviços."
+    },
+    "trademark": {
+      "p1": "G81 Tecnologia Interativa e Neurolinguística, Startup do ramo de tecnologia com especificidade em software house (fábrica de aplicações) que tenham a interação e/ou aplicações da comunicação neurolinguística como base.",
+      "p2": "Realizamos os serviços de arquitetura e desenvolvimento de software, seguindo um processo cuidadosamente planejado em diversas etapas. Iniciamos com a fase de diagnóstico, onde compreendemos profundamente as necessidades e desafios do projeto. Em seguida, avançamos para a fase de concepção, onde criamos uma visão clara e estratégica do produto. Com base nisso, prosseguimos para o levantamento e análise detalhada de requisitos, garantindo que cada aspecto seja minuciosamente considerado. Na fase de desenvolvimento, aplicamos nossa expertise técnica e criativa para criar soluções robustas e inovadoras. Por fim, na etapa de manutenção, asseguramos o pleno funcionamento e aprimoramento contínuo do software.",
+      "p3": "O G da marca veio do imenso significado das palavras da língua portuguesa que compõem nossos valores buscados a cada dia, que são: Grandeza; Geração; Grupo; Generosidade; Gentileza; Gratidão; Gestão e Gerenciamento. Os números naturais 8 e 1 estão relacionados às 8 virtudes que regem nossa missão e visão para obtenção de 1 propósito/ objetivo estabelecido e idealizado por nós. Detalhadamente são esses:",
+      "virtues": {
+        "faith": {
+          "title": "Fé",
+          "p1": "Primeiro e principal, que potencializa as ações do indivíduo e da empresa, remetendo a uma força que transcende o eu - levando a acreditar que algo ou alguém estará com você em suas aflições e nortearão suas ações. A fé também é o primeiro princípio do evangelho. Quando se tem fé, é possível acreditar no que não se pode ver, mas sabe que existe, assim como a certeza que o sol nascerá todas as manhãs."
+        },
+        "selfAwareness": {
+          "title": "Autoconhecimento/ autogoverno",
+          "p1": "O aforismo (frases breves que possuem uma definição de um preceito moral ou prático) que designa de forma fidedigna esse princípio, vem do grego antigo 'conhece a ti mesmo', que comumente é encontrado na língua portuguesa como 'conhece-te a ti mesmo'. No qual revela a importância do saber próprio - analisando suas ações diárias, palavras corriqueiras, segmento natural, desejos que consegue realizar e demais ações inerentes à ciência sobre si.",
+          "p2": "Com isso, poderá fazer uma auto análise que contribuirá com seu autogoverno, que lhe tornará mais organizado, diligente, fiel a seus ideais e tendo a capacidade de controlar o seu comportamento, atitudes e palavras em qualquer lugar. Quando se tem domínio próprio, ampliamos a capacidade de cumprir as regras sem dificuldade, mesmo que, muitas das vezes, não gostemos delas, isso é obediência - a verdadeira obediência está em obedecermos exatamente quando não concordamos, somos capazes de respeitar o próximo mesmo que, às vezes, as atitudes deles não sejam o que esperamos, somos capazes de dominar nossa língua e ações para não falarmos ou realizarmos o que não é devido no momento."
+        },
+        "humility": {
+          "title": "Humildade",
+          "p1": "Uma característica que a maioria dos seres humanos busca, segundo Aristóteles, é a excelência. Agregado a ela, a procura da plena realização da sua existência, a superioridade, a primazia, o ser melhor. Contudo, a temperança, disciplina e justa medida, quando vincula-se a essas características, chama-se de humildade, evitando então a soberba e sendo o oposto do orgulho. A humildade, consiste em avaliar-se da maneira que corresponde à realidade, reconhecendo de forma verdadeira e humilde nossas fraquezas, falhas e dificuldades. Essa é a chave para o progresso, significa que usamos nossos talentos e habilidades, admitindo que não sabemos de todas as coisas e sempre estamos abertos para o aprender. Revelando um conceito que se relaciona com a ideia de agir com modéstia e igualdade em relação às outras pessoas, com demonstrações de respeito, de ter simplicidade em suas atitudes e saber reconhecer suas próprias limitações."
+        },
+        "commitment": {
+          "title": "Comprometimento",
+          "p1": "É a base de tudo o que fazemos. É a atitude de cumprir com dedicação as promessas, responsabilidades e obrigações assumidas. Demonstra-se por meio da busca incansável pela excelência em todas as etapas do trabalho, do cumprimento de prazos, do respeito aos compromissos assumidos com nossos clientes, colaboradores e parceiros. Estamos comprometidos em ir além do esperado, superar expectativas e entregar resultados de alta qualidade."
+        },
+        "sowing": {
+          "title": "Semeadura",
+          "p1": "O ato de plantar as sementes do sucesso fazem parte da nossa missão, onde acreditamos na importância de cada ação que realizamos hoje, pois ela pode ter um impacto significativo no futuro. Buscamos semear boas práticas, valores e relacionamentos positivos em todas as interações com nossos clientes, colaboradores e parceiros de negócios. Essa semeadura consiste em agir com integridade, empatia e respeito, estabelecendo bases sólidas para um ambiente de trabalho saudável, relações duradouras e resultados positivos a longo prazo."
+        },
+        "focus": {
+          "title": "Foco",
+          "p1": "É um princípio essencial para alcançarmos resultados excepcionais. Internamente, estimulamos constantemente o desenvolvimento pessoal e profissional, oferecendo oportunidades de aprendizado e crescimento. Já nos projetos dos nossos clientes, o foco nos permite compreender suas necessidades específicas, estabelecer metas claras e direcionar nossos esforços para entregar soluções personalizadas e de alta qualidade. Ao mantermos o foco constante, garantimos a satisfação dos clientes e alcançamos excelência em tudo o que fazemos."
+        },
+        "communication": {
+          "title": "Comunicação",
+          "p1": "Reconhecemos a importância de uma comunicação clara, aberta e efetiva para o sucesso de nossos relacionamentos com clientes, colaboradores e parceiros. Nosso compromisso é potencializar a comunicação como um propósito importante, buscando estabelecer uma troca de informações transparente e respeitosa. Ouvimos atentamente, expressamos nossas ideias de forma articulada e compreendemos as necessidades e expectativas de todos os envolvidos. Criamos um ambiente de comunicação aberto, onde cada voz é valorizada, todas as contribuições são reconhecidas e as soluções são construídas em conjunto. Acreditamos que a comunicação eficaz é a chave para fortalecer relacionamentos, promover a colaboração e alcançar resultados excepcionais."
+        },
+        "passion": {
+          "title": "Paixão",
+          "p1": "É o combustível que impulsiona nossa empresa. É o sentimento intenso de entusiasmo, motivação e dedicação em relação ao trabalho que realizamos. Acreditamos que a paixão é contagiosa e inspiradora, e é o que nos impulsiona a enfrentar desafios, encontrar soluções criativas e superar obstáculos. Estamos dedicados a fazer a diferença em cada projeto que realizamos, a agregar valor aos negócios de nossos clientes e a contribuir positivamente para seu sucesso. A paixão é o que nos mantém engajados, estimulados e comprometidos em alcançar resultados extraordinários."
+        }
+      }
+    }
+  },
+  "Contact": {
+    "form": {
+      "name": "Nome completo",
+      "email": "E-mail",
+      "phone": "Número de telefone",
+      "message": "Mensagem",
+      "subject": {
+        "title": "Assunto",
+        "b1": "Informação",
+        "b2": "Dúvida",
+        "b3": "Reclamação",
+        "b4": "Elogio",
+        "b5": "Orçamento",
+        "b6": "Sugestão"
+      },
+      "placeholder": "Informe seu",
+      "errorMessage": {
+        "required": "Preencha todos os campos obrigatórios!",
+        "fullName":"O nome completo deve ter pelo menos 3 caracteres.",
+        "email":"E-mail inválido.",
+        "message": "A mensagem é obrigatória!"
+      }
+    }
+  }
+}
