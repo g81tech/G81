@@ -1,0 +1,20 @@
+{
+  "name": "g81-business-rules",
+  "version": "1.0.0",
+  "description": "Unified Project Management Platform with interaction and/or applications of neurolinguistic communication as its foundation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "G81 Interactive and Neurolinguistic Technology",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "@types/uuid": "^9.0.7",
+    "eslint": "^8.55.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "uuid": "^9.0.1"
+  }
+}
