@@ -8,7 +8,7 @@ export default function LoadingSkeleton({
   height,
 }: SkeletonProps) {
   return (
-    <SkeletonTheme color="#202020" highlightColor="#444">
+    <SkeletonTheme baseColor="#202020" highlightColor="#444">
       <Skeleton width={width} height={height} count={count} circle={circle} />
     </SkeletonTheme>
   )

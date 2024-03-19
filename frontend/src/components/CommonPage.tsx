@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-interface CommonPageProps{ title: string, children: React.ReactNode
+interface CommonPageProps{ title?: string, children: React.ReactNode
 }
 
 export const CommonPage = ({ title, children }:CommonPageProps ) => {
