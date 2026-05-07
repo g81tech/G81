@@ -1,52 +1,60 @@
-import { NextRequest, NextResponse } from "next/server";
-import nodemailer from "nodemailer";
+import { NextRequest, NextResponse } from 'next/server'
+import nodemailer from 'nodemailer'
+
+export const runtime = 'nodejs'
 
 const transporter = nodemailer.createTransport({
-	host: process.env.EMAIL_HOST,
-	port: 465,
-	secure: true,
-	auth: {
-		user: process.env.EMAIL_USER,
-		pass: process.env.EMAIL_PASS,
-	},
-});
+  host: process.env.NEXT_PUBLIC_EMAIL_HOST,
+  port: 465,
+  secure: true,
+  auth: {
+    user: process.env.NEXT_PUBLIC_EMAIL_USER,
+    pass: process.env.NEXT_PUBLIC_EMAIL_PASS,
+  },
+})
 
-export async function GET(req: NextRequest) {
-	try {
-		const { searchParams } = new URL(req.url);
+export async function GET(
+  req: NextRequest,
+  context: {
+    params: Promise<{ locale: string }>
+  }
+) {
+  try {
+    const { locale } = await context.params
 
-		const code = searchParams.get("code");
+    console.log('Locale:', locale)
 
-		if (!code) {
-			return NextResponse.json(
-				{
-					error: "Code não recebido",
-				},
-				{ status: 400 },
-			);
-		}
+    const { searchParams } = new URL(req.url)
 
-		await transporter.sendMail({
-			from: `"Cora Callback" <${process.env.EMAIL_USER}>`,
-			to: process.env.EMAIL_SEND_TO,
-			subject: "Novo callback recebido do Cora",
-			text: `Code recebido: ${code}`,
-		});
+    const code = searchParams.get('code')
 
-		return NextResponse.json(
-			{
-				success: true,
-			},
-			{ status: 200 },
-		);
-	} catch (error) {
-		console.error(error);
+    if (!code) {
+      return NextResponse.json(
+        {
+          error: 'Code não recebido',
+        },
+        { status: 400 }
+      )
+    }
 
-		return NextResponse.json(
-			{
-				error: "Erro interno",
-			},
-			{ status: 500 },
-		);
-	}
+    await transporter.sendMail({
+      from: `"Cora Callback" <${process.env.NEXT_PUBLIC_EMAIL_USER}>`,
+      to: process.env.NEXT_PUBLIC_EMAIL_SEND_TO,
+      subject: 'Novo callback recebido do Cora',
+      text: `Locale: ${locale}\nCode: ${code}`,
+    })
+
+    return NextResponse.json({
+      success: true,
+    })
+  } catch (error: any) {
+    console.error(error)
+
+    return NextResponse.json(
+      {
+        error: error.message,
+      },
+      { status: 500 }
+    )
+  }
 }
