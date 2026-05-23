@@ -21,39 +21,37 @@ export async function GET(
 ) {
   try {
     const { locale } = await context.params
-
-    console.log('Locale:', locale)
-
     const { searchParams } = new URL(req.url)
 
     const code = searchParams.get('code')
+    const state = searchParams.get('state') // Precisamos capturar o tenant_id!
 
     if (!code) {
       return NextResponse.json(
-        {
-          error: 'Code não recebido',
-        },
+        { error: 'Code não recebido' },
         { status: 400 }
       )
     }
 
+    // Mantive o seu disparo de email para não quebrar a sua lógica
     await transporter.sendMail({
       from: `"Cora Callback" <${process.env.NEXT_PUBLIC_EMAIL_USER}>`,
       to: process.env.NEXT_PUBLIC_EMAIL_SEND_TO,
       subject: 'Novo callback recebido do Cora',
-      text: `Locale: ${locale}\nCode: ${code}`,
+      text: `Locale: ${locale}\nCode: ${code}\nState: ${state}`,
     })
 
-    return NextResponse.json({
-      success: true,
-    })
+    // REDIRECT MÁGICO PARA O DOCKER LOCAL
+    // Pega o navegador do usuário e força ele a bater na porta 8090 da máquina local
+    if (state) {
+      return NextResponse.redirect(`http://localhost:8090/pt-BR/callback/cora?code=${code}&state=${state}`);
+    }
+
+    return NextResponse.json({ success: true })
   } catch (error: any) {
     console.error(error)
-
     return NextResponse.json(
-      {
-        error: error.message,
-      },
+      { error: error.message },
       { status: 500 }
     )
   }
