@@ -41,14 +41,14 @@ export async function GET(
       text: `Locale: ${locale}\nCode: ${code}\nState: ${state}`,
     })
 
-    // REDIRECT MÁGICO PARA A APLICAÇÃO QUE ESTÁ RODANDO O PROJETO
-    //if (state) {
-    //  return NextResponse.redirect(`http://localhost:8090/pt-BR/callback/cora?code=${code}&state=${state}`);
-    //}
-
+    // REDIRECT PARA A APLICAÇÃO QUE ESTÁ RODANDO O PROJETO
     if (state) {
-      return NextResponse.redirect(`https://gugga-ss-api.g81.com.br/pt-BR/callback/cora?code=${code}&state=${state}`);
+      return NextResponse.redirect(`http://localhost:8080/pt-BR/callback/cora?code=${code}&state=${state}`);
     }
+
+    /*     if (state) {
+      return NextResponse.redirect(`https://gugga-ss-api.g81.com.br/pt-BR/callback/cora?code=${code}&state=${state}`);
+    } */
 
     return NextResponse.json({ success: true })
   } catch (error: any) {
