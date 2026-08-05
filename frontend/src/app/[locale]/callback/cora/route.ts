@@ -42,13 +42,13 @@ export async function GET(
     })
 
     // REDIRECT PARA A APLICAÇÃO QUE ESTÁ RODANDO O PROJETO
-    if (state) {
+    /* if (state) {
       return NextResponse.redirect(`http://localhost:8080/pt-BR/callback/cora?code=${code}&state=${state}`);
-    }
-
-    /*     if (state) {
-      return NextResponse.redirect(`https://gugga-ss-api.g81.com.br/pt-BR/callback/cora?code=${code}&state=${state}`);
     } */
+
+    if (state) {
+      return NextResponse.redirect(`https://gugga-ss-api.g81.com.br/pt-BR/callback/cora?code=${code}&state=${state}`);
+    } 
 
     return NextResponse.json({ success: true })
   } catch (error: any) {
